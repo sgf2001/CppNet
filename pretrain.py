@@ -20,7 +20,7 @@ def genpepData(file_path):
     peptide = data.iloc[:, 0]
     return peptide
 
-peptide = genpepData('./dataset/dataset.csv').tolist()
+peptide = genpepData('./data/dataset.csv').tolist()
 
 chunk_size = 1
 my_data =[]
