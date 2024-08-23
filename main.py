@@ -61,7 +61,7 @@ def metrics(test, pred):
 
 
 esm = pretainPretrtain('./dataset_esm_2_feature.csv')
-x,y = genData('./dataset/dataset.csv')
+x,y = genData('./data/dataset.csv')
 fps = finger(x)
 X_train_tensor,y_train_tensor,X_test_tensor,y_test_tensor,y_test =concat(fps,esm,y)
 
